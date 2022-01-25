@@ -1,0 +1,49 @@
+.wcon-settings-container table tr th {
+    width: 20%;
+}
+
+.wcon-templates{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    background: #fff;
+}
+.wcon-templates table.form-table{
+    margin: 0;
+}
+
+.wcon-templates thead tr, .wcon-templates tfoot tr {
+    background-color: #fedcc5;
+}
+.wcon-templates thead tr th, .wcon-templates tfoot tr th{
+    padding: 10px 15px;
+    text-align:left;
+}
+.wcon-templates tbody tr td{
+    padding: 10px 15px;
+    text-align:left;
+}
+.wcon-templates tbody tr:not(:last-child) td{
+    
+    border-bottom: 1px solid #ececec;
+}
+
+.wcon-templates thead tr th:last-child, 
+.wcon-templates tfoot tr th:last-child,
+.wcon-templates tbody tr td:last-child{
+    width: 20%;
+}
+
+.wcon-template-editor {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px 0;
+}
+.wcon-template-editor .wcon-label{
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+.wcon-template-editor textarea{
+    width: 500px;
+    height: 120px;
+}
